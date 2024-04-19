@@ -1,3 +1,10 @@
+## Comment of Reviser
+This repository contains code for running FAST-LIO with Livox Mid 360 in ROS1. Therefore, it is necessary to use Livox ROS Driver2 along with it. You will need to make some modifications to Livox ROS Driver2. The process is not difficult. Please refer to the link below for the modifications and proceed accordingly. The link below indicates what needs to be modified from the original FAST_LIO. Thank you.
+
+이 레포지토리의 코드는 ROS1에서 Livox Mid 360을 통해 FAST-LIO를 수행합니다. 그러므로 Livox ROS Driver2를 반드시 함께 사용해야 합니다. 그러므로 Livox ROS driver2를 일부 수정해야 합니다. 과정은 어렵지 않습니다. 아래 링크를 참고하여 수정한 후 원래대로 수행 바랍니다. 아래 링크는 기존의 FAST_LIO에서 어떠한 부분을 수정해야 하는지 나타나 있습니다. 감사합니다.
+
+https://priceless-hyun.tistory.com/141
+
 ## Related Works and Extended Application
 
 **SLAM:**
