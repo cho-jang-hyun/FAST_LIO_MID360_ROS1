@@ -3,6 +3,17 @@ This repository contains code for running FAST-LIO with Livox Mid 360 in ROS1. T
 
 이 레포지토리의 코드는 ROS1에서 Livox Mid 360을 통해 FAST-LIO를 수행합니다. 그러므로 Livox ROS Driver2를 반드시 함께 사용해야 합니다. 그러므로 Livox ROS driver2를 일부 수정해야 합니다. 과정은 어렵지 않습니다. 아래 링크를 참고하여 수정한 후 원래대로 수행 바랍니다. 아래 링크는 기존의 FAST_LIO에서 어떠한 부분을 수정해야 하는지 나타나 있습니다. 감사합니다.
 
+'''
+# 수정 livox_ros_driver -> livox_ros_driver2
+# revise livox_ros_driver -> livox_ros_driver2
+gedit ~/catkin_ws/src/FAST_LIO/CMakeLists.txt
+gedit ~/catkin_ws/src/FAST_LIO/src/preprocess.h
+gedit ~/catkin_ws/src/FAST_LIO/src/laseerMapping.cpp
+
+cd ~/catkin_ws && catkin_make # or cm
+'''
+
+
 https://priceless-hyun.tistory.com/141
 
 ## Related Works and Extended Application
