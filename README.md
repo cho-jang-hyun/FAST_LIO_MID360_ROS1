@@ -9,6 +9,8 @@ This repository contains code for running FAST-LIO with Livox Mid 360 in ROS1. T
 ```
 # 수정 livox_ros_driver -> livox_ros_driver2
 # replace livox_ros_driver -> livox_ros_driver2
+
+
 gedit ~/catkin_ws/src/FAST_LIO/CMakeLists.txt
 gedit ~/catkin_ws/src/FAST_LIO/src/preprocess.h
 gedit ~/catkin_ws/src/FAST_LIO/src/laseerMapping.cpp
@@ -16,8 +18,10 @@ gedit ~/catkin_ws/src/FAST_LIO/src/laseerMapping.cpp
 cd ~/catkin_ws && catkin_make # or cm
 ```
 
-
+you can refer in <br>
 https://priceless-hyun.tistory.com/141
+
+
 
 # Original README of FAST-LIO2
 
