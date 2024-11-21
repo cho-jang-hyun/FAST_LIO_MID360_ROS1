@@ -1,10 +1,10 @@
-## Comment of Reviser
+## Comment of Revisor
 
 ---
-This repository contains code for running FAST-LIO with Livox Mid 360 in ROS1. Therefore, it is necessary to use Livox ROS Driver2 along with it. You will need to make some modifications to Livox ROS Driver2. The process is not difficult. Please refer to the link below for the modifications and proceed accordingly. The link below indicates what needs to be modified from the original FAST_LIO. Thank you.
+This repository contains code for running FAST-LIO with Livox Mid 360 in ROS1. Therefore, it is necessary to use Livox ROS Driver2 along with it. You might need to make some modifications to Livox ROS Driver2. If there is an error with building Livox SDK, you can delete the part of ROS2 in CMakelists.txt of Livox SDK2. The process is not difficult. Please refer to the link below for the modifications and proceed accordingly. The link below indicates what needs to be modified from the original FAST_LIO. Thank you.
 
 ---
-이 레포지토리의 코드는 ROS1에서 Livox Mid 360을 통해 FAST-LIO를 수행합니다. 그러므로 Livox ROS Driver2를 반드시 함께 사용해야 합니다. 그러므로 Livox ROS driver2를 일부 수정해야 합니다. 과정은 어렵지 않습니다. 아래 링크를 참고하여 수정한 후 원래대로 수행 바랍니다. 아래 링크는 기존의 FAST_LIO에서 어떠한 부분을 수정해야 하는지 나타나 있습니다. 감사합니다.
+이 레포지토리의 코드는 ROS1에서 Livox Mid 360을 통해 FAST-LIO를 수행합니다. 그러므로 Livox ROS Driver2를 반드시 함께 사용해야 합니다. 그러므로 Livox ROS driver2를 일부 수정할 수도 있습니다. Livox SDK 빌드 과정에서 에러가 발생한다면, Livox SDK의 CMakelists.tx에서 ROS2 부분을 지우면 대게 해결됩니다. 과정은 어렵지 않습니다. 아래 링크를 참고하여 수정한 후 원래대로 수행 바랍니다. 아래 링크는 기존의 FAST_LIO에서 어떠한 부분을 수정해야 하는지 나타나 있습니다. 감사합니다.
 
 ```
 # 수정 livox_ros_driver -> livox_ros_driver2
