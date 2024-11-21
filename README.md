@@ -18,7 +18,7 @@ gedit ~/catkin_ws/src/FAST_LIO/src/laseerMapping.cpp
 cd ~/catkin_ws && catkin_make # or cm
 ```
 
-you can refer in <br>
+you can refer at <br>
 https://priceless-hyun.tistory.com/141
 
 
